@@ -94,6 +94,7 @@ if not path.exists():
 #--------------calculate the hashes----------------#
 
 results = collect_results(path, args.recursion)
+results = [r for r in results if r is not None]
 
 #------------------how to print--------------------#
 
