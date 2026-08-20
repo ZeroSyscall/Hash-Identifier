@@ -19,7 +19,7 @@ Command-line tool that computes file hashes (SHA-256, SHA-1, MD5) for one or mor
 ## Installation
  
 ```bash
-git clone https://github.com/<your-username>/hash-identifier.git
+git clone https://github.com/ZeroSyscall/Hash-Identifier.git
 cd hash-identifier
 python -m venv venv
 venv\Scripts\activate
